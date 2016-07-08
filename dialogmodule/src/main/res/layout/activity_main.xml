@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dialogmodule.MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示对话框"
+        android:id="@+id/btn_dialog"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btn_singledialog"
+        android:layout_alignStart="@+id/btn_singledialog"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="列表对话框"
+        android:id="@+id/btn_itemdialog"
+        android:layout_below="@+id/btn_dialog"
+        android:layout_alignLeft="@+id/btn_dialog"
+        android:layout_alignStart="@+id/btn_dialog"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单选对话框"
+        android:id="@+id/btn_singledialog"
+        android:layout_below="@+id/btn_itemdialog"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多选对话框"
+        android:id="@+id/btn_muldialog"
+        android:layout_below="@+id/btn_singledialog"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义对话"
+        android:id="@+id/btn_customdialog"
+        android:layout_below="@+id/btn_muldialog"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/btn_showtext"
+        android:layout_below="@+id/btn_customdialog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"/>
+
+
+</RelativeLayout>
