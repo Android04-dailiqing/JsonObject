@@ -10,4 +10,40 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.admin.myapplication.ThreeActivity">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="透明动画"
+        android:id="@+id/btn_three_alpha"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="缩放动画"
+        android:id="@+id/btn_three_scale"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="旋转动画"
+        android:id="@+id/btn_three_rotate"
+        android:layout_alignTop="@+id/btn_three_scale"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="偏移动画"
+        android:id="@+id/btn_three_translate"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btn_three_alpha"
+        android:layout_alignStart="@+id/btn_three_alpha"
+        android:layout_marginBottom="79dp"/>
 </RelativeLayout>

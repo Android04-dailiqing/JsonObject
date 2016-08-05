@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="当日详细天气" android:id="@+id/weather_day"
+          android:icon="@mipmap/ic_menu"/>
+    <item android:title="未來七天" android:id="@+id/weather_qiday"
+          android:icon="@mipmap/ic_menu"/>
+    <item android:title="其他">
+        <menu>
+            <item android:title="第一" android:icon="@mipmap/ic_menu"/>
+            <item android:title="第二" android:icon="@mipmap/ic_menu"/>
+        </menu>
+    </item>
+</menu>

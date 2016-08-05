@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         rb2.setOnClickListener(this);
         rb3.setOnClickListener(this);
         btn.setOnClickListener(this);
+        btn_an.setOnClickListener(this);
+
 
 
     }
@@ -45,6 +47,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         if(v.getId() == R.id.btn_show){
             Intent intent = new Intent(MainActivity.this,SencondActivity.class);
+            startActivity(intent);
+        }
+        if(v == btn_an){
+            Intent intent = new Intent(MainActivity.this,ThreeActivity.class);
             startActivity(intent);
         }
 

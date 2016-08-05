@@ -5,20 +5,23 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class SencondActivity extends AppCompatActivity {
+public class SencondActivity extends AppCompatActivity  {
     private ListView  list;
     private ArrayList data;
     private MyAdapter mAdapter;
+    private Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sencond);
+
         list = (ListView) findViewById(R.id.listView);
         data = new ArrayList();
         mAdapter = new MyAdapter();
@@ -28,7 +31,10 @@ public class SencondActivity extends AppCompatActivity {
         data.add(4);
         data.add(5);
         list.setAdapter(mAdapter);
+
     }
+
+
 
     class MyAdapter extends BaseAdapter {
 
