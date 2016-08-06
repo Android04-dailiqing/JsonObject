@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="当日详细天气" android:id="@+id/weather_day"
+    <item android:title="实时天气PM2.5" android:id="@+id/weather_realtime"
           android:icon="@mipmap/ic_menu"/>
-    <item android:title="未來七天" android:id="@+id/weather_qiday"
+    <item android:title="当日生活信息" android:id="@+id/weather_day"
+          android:icon="@mipmap/ic_menu"/>
+    <item android:title="未来七天" android:id="@+id/weather_week"
           android:icon="@mipmap/ic_menu"/>
     <item android:title="其他">
         <menu>
