@@ -29,6 +29,7 @@ public class HttpUtil {
     private String mJs;
     private String mUrlString = "http://op.juhe.cn/onebox/weather/query?cityname=";
     private String mUrlEnd = "&dtype=&key=8a81ad7f1fe07aa8dc3e28fd39a9a604";
+
     /**
      * 通过GET请获取JSON
      * @param context 上下文
